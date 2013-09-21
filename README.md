@@ -16,4 +16,13 @@ Setup
 
 4. **OPTIONAL install effective-cygwin configuration files**. If you've followed the above steps correctly your C:\Users\MY_USER directory is now the home directory of your cygwin installation. As such putting a `.bashrc`, `.bash_profile` or `.vimrc` configuration files here like the ones included in this repo will ensure it is executed by the cygwin terminal.
 
+Notes
+-----
+
+* **Python** - do not install python port through cygwin. Version 2.6 is OLD. Install through windows installer and then follow steps below if for some reason you need to use the interactive prompt.
+Non-cygwin interactive prompts often do not work in cygwin. See [this][2] google code issue. **Workaround** - if you want to use the python interactive prompt run `python -i`.
+
+* **MongoDb** - non-cygwin interactive prompts often do not work in cygwin. See [this][2] google code issue. **Workaround** - no known way of making MongoDb interactive prompt work in cygwin :(
+
 [1]: http://puttycyg.googlecode.com/files/puttycyg-20101029.zip
+[2]: http://code.google.com/p/mintty/issues/detail?id=56
