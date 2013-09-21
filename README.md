@@ -19,10 +19,14 @@ Setup
 Notes
 -----
 
-* **Python** - do not install python port through cygwin. Version 2.6 is OLD. Install through windows installer and then follow steps below if for some reason you need to use the interactive prompt.
-Non-cygwin interactive prompts often do not work in cygwin. See [this][2] google code issue. **Workaround** - if you want to use the python interactive prompt run `python -i`.
+**General**  
+Non-cygwin interactive prompts often do not work in cygwin. See [this][2] google code issue.
 
-* **MongoDb** - non-cygwin interactive prompts often do not work in cygwin. See [this][2] google code issue. **Workaround** - no known way of making MongoDb interactive prompt work in cygwin :(
+**Python**  
+Do not install python port through cygwin. Version 2.6 is OLD. Install through windows installer. To fix the interactive prompt start using: `python -i`
+
+**MongoDb**  
+No known way of making MongoDb interactive prompt work in cygwin :(
 
 [1]: http://puttycyg.googlecode.com/files/puttycyg-20101029.zip
 [2]: http://code.google.com/p/mintty/issues/detail?id=56
